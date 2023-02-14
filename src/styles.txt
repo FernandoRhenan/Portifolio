@@ -1,0 +1,21 @@
+Cores: 
+
+index.css {
+    #323232 - background
+}
+
+NavBar {
+    #252525 - cor de fundo
+    #646464 - a,
+    #fff - a:hover,
+    #07cd00 - BG do link ativo,
+    green - Border do link ativo
+}
+
+Profile {
+#a0f0b8 - h1,
+grey - h2, texto,
+}
+
+
+

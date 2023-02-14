@@ -1,0 +1,27 @@
+.contacts{
+    color: grey;
+}
+
+.contacts li{
+    margin: 5px auto;
+}
+
+.contacts li span{
+   font-weight: bold;
+   color: gainsboro;
+}
+
+@media screen and (max-width: 550px){
+    .contacts{
+        max-width: 260px;
+        text-align: center;
+    }
+
+    .contacts li{
+        margin: 15px auto;
+    }
+
+    .contacts li span{
+    word-wrap: break-word;
+     }
+}

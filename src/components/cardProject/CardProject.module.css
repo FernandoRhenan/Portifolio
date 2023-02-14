@@ -1,0 +1,24 @@
+.cardProject{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 20px -5px black;
+}
+
+.cardProject img{
+    height: 250px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.cardProject div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to bottom left, #353535, #1f1f1f);
+}
+
+.cardProject div span a{
+  font-size: 1.3rem;
+  color: #a0f0b8;
+}

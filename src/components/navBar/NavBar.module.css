@@ -1,0 +1,59 @@
+.NavBar_container {
+    display: inline-block;
+    position: sticky;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    min-width: 90px;
+    background-color: #252525;
+    box-shadow: 0 0 7px black;
+}
+
+.NavBar_container ul {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.NavBar_container li svg {
+    box-sizing: content-box;
+    padding: 5px;
+    font-size: 1.8em;
+    border-radius: 50px;
+    transition: 300ms;
+}
+
+a {
+    color: #646464;
+}
+
+.NavBar_container a:hover {
+    color: #fff;
+
+}
+
+.active svg {
+    color: #fff;
+    background-color: #07cd00;
+    box-shadow: 0 0 0 3px green;
+}
+
+@media screen and (max-width: 550px) {
+
+    .NavBar_container {
+        display: inline-block;
+        position: fixed;
+        height: 90px;
+        top: 0;
+        width: 100%;
+    }
+
+    .NavBar_container ul {
+        flex-direction: row;
+    }
+
+}

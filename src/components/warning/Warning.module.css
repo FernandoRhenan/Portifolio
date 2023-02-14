@@ -1,0 +1,15 @@
+.warning{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.warning svg{
+   color: rgb(255, 230, 0);
+   font-size: 100px;
+}
+
+.warning p{
+    font-size: 1.2rem;
+}

@@ -1,25 +1,40 @@
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+
+// components
+import NavBar from './components/navBar/NavBar';
+
+//pages
+import Profile from './pages/profile/Profile'
+import Knowledge from './pages/knowledge/Knowledge';
+import Projects from './pages/projects/Projects'
+import Contact from './pages/contact/Contact'
+import About from './pages/about/About';
+import WebDev from './pages/projects/webDev/WebDev';
+import MiniBlog from './pages/projects/miniblog/MiniBlog';
+import Inove from './pages/projects/inove/Inove';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+      <div className='navBar_pages'>
+        <Routes>
+          <Route path='/' element={<Profile />} />
+          <Route path='/knowledge' element={<Knowledge />} />
+          <Route path='/projects' element={<Projects />} />
+          <Route path='/contact' element={<Contact />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/projects/webdev' element={<WebDev />} />
+          <Route path='/projects/miniblog' element={<MiniBlog />} />
+          <Route path='/projects/inove' element={<Inove />} />
+        </Routes>
+        <NavBar />
+        </div>
+    
+      </BrowserRouter>
+
     </div>
   );
 }
-
 export default App;

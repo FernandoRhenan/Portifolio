@@ -1,0 +1,46 @@
+.miniblog_container {
+    width: 100%;
+    padding-bottom: 200px;
+    text-align: center;
+}
+
+.miniblog_container span{
+    display: block;
+}
+
+.miniblog_container p span{
+    display: inline-block;
+}
+
+.miniblog_container h1 {
+    font-family: 'Rock Salt', sans-serif;
+    font-size: 2.2rem;
+    color: #a0f0b8;
+    padding: 50px 0;
+}
+
+.miniblog_container h2 {
+    font-size: 1.2rem;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color: grey;
+}
+
+.miniblog_container p {
+    display: inline-block;
+    margin-bottom: 15px;
+    max-width: 700px;
+    text-align: left;
+}
+
+.miniblog_container a{
+    color: #a0f0b8;
+}
+
+
+
+@media screen and (max-width: 550px){
+    .miniblog_container h1 {
+        padding-top: 140px;
+    }
+}

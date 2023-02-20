@@ -2,7 +2,7 @@ import styles from './Projects.module.css'
 import Footer from '../../components/footer/Footer'
 // import Warning from '../../components/warning/Warning'
 import CardProject from '../../components/cardProject/CardProject'
-import webdev from '../../assets/webdev.png'
+import todoList from '../../assets/todoList.png'
 import miniblog from '../../assets/miniblog.png'
 import inove from '../../assets/inove.png'
 
@@ -22,7 +22,7 @@ const Projects = () => {
       <div className={styles.projects_box}>
         <div><CardProject src={miniblog} name='Mini Blog' link='miniblog' /></div>
         <div><CardProject src={inove} name='Inove' link='inove' /></div>
-        <div><CardProject src={webdev} name='WebDev Films' link='webdev' /></div>
+        <div><CardProject src={todoList} name='Lista de tarefas' link='listadetarefas' /></div>
       </div>
 
 

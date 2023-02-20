@@ -10,7 +10,7 @@ import Knowledge from './pages/knowledge/Knowledge';
 import Projects from './pages/projects/Projects'
 import Contact from './pages/contact/Contact'
 import About from './pages/about/About';
-import WebDev from './pages/projects/webDev/WebDev';
+import TodoList from './pages/projects/todoList/TodoList';
 import MiniBlog from './pages/projects/miniblog/MiniBlog';
 import Inove from './pages/projects/inove/Inove';
 
@@ -25,7 +25,7 @@ function App() {
           <Route path='/projects' element={<Projects />} />
           <Route path='/contact' element={<Contact />} />
           <Route path='/about' element={<About />} />
-          <Route path='/projects/webdev' element={<WebDev />} />
+          <Route path='/projects/listadetarefas' element={<TodoList />} />
           <Route path='/projects/miniblog' element={<MiniBlog />} />
           <Route path='/projects/inove' element={<Inove />} />
         </Routes>

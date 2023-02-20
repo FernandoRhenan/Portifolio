@@ -1,41 +1,41 @@
-.webDev_container {
+.todoList_container {
     width: 100%;
     padding-bottom: 200px;
     text-align: center;
 }
 
-.webDev_container span{
+.todoList_container span{
     display: block;
 }
 
-.webDev_container h1 {
+.todoList_container h1 {
     font-family: 'Rock Salt', sans-serif;
     font-size: 2.2rem;
     color: #a0f0b8;
     padding: 50px 0;
 }
 
-.webDev_container h2 {
+.todoList_container h2 {
     font-size: 1.2rem;
     margin-top: 30px;
     margin-bottom: 50px;
     color: grey;
 }
 
-.webDev_container p {
+.todoList_container p {
     display: inline-block;
     margin-bottom: 15px;
     max-width: 700px;
     text-align: left;
 }
 
-.webDev_container a{
+.todoList_container a{
     color: #a0f0b8;
 }
 
 
 @media screen and (max-width: 550px){
-    .webDev_container h1 {
+    .todoList_container h1 {
         padding-top: 140px;
     }
 }

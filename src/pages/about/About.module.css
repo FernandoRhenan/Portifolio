@@ -21,6 +21,12 @@
     margin-bottom: 30px;
 } 
 
+.about_container div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .about_container p {
     display: inline-block;
     margin-bottom: 15px;

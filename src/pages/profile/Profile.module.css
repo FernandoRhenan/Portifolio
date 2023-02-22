@@ -3,7 +3,7 @@
     text-align: center;
 }
 
-.picture{
+.picture {
     margin: 50px 0;
     width: 280px;
     clip-path: circle();
@@ -16,14 +16,20 @@
     padding: 0 20px;
 }
 
-.profile_container h2{
+.profile_container h2 {
     font-size: 1.2rem;
     margin-top: 30px;
     margin-bottom: 50px;
     color: grey;
 }
 
-.profile_container p{
+.profile_container div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile_container p {
     display: inline-block;
     margin-bottom: 15px;
     max-width: 700px;
@@ -32,8 +38,8 @@
 
 
 
-@media screen and (max-width: 550px){
-    .picture{
+@media screen and (max-width: 550px) {
+    .picture {
         margin-top: 140px;
         width: 220px;
     }
